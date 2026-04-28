@@ -1,4 +1,4 @@
-curl -sS https://starship.rs/install.sh | sh -s -- --yes
+curl -sS https://starship.rs/install.sh | sh -s -- -b ~/.local/bin -y
 
 ln -sf ~/dotfiles/.zshrc ~
 
